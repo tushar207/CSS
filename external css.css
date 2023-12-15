@@ -1,0 +1,9 @@
+.one{
+    height: 200px;
+    width: 200px;
+    color: rgb(253, 3, 53);
+    background-color: rgb(190, 242, 225); 
+    text-align: center;  
+    font-size: xx-large;
+    border: 2px solid black;
+}

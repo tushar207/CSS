@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .abc{
+            height: 200px;
+            background-color: aqua;
+            display: flex;
+        }
+        .one{
+           height: 100px;
+           width: 25%;
+           background-color: blueviolet;
+        }
+        @media (min-width:320px) and (max-width:480px) {
+            .one{
+                background-color: chartreuse;
+            }
+        }
+        @media (min-width:481px) and (max-width:768px) {
+            .one{
+                background-color: chocolate;
+            }
+        }
+        @media (min-width:769px) and (max-width:1024px) {
+            .one{
+                background-color: red;
+            }
+        }
+        @media (min-width:1025px) and (max-width:1200px) {
+            .one{
+                background-color:yellow;
+            }
+        }
+        @media (min-width:320px) and (max-width:480px) {
+            .abc{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            #two1{
+                width: 100%;
+            }
+            #two2{
+                width: 100%;
+            }
+            #two3{
+                width: 100%;
+            }
+            #two4{
+                width: 100%;
+            }
+        }
+        
+        @media (min-width:481px) and (max-width:768px) {
+            .abc{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            #two1{
+                width: 50%;
+            }
+            #two2{
+                width: 50%;
+            }
+            #two3{
+                width: 50%;
+            }
+            #two4{
+                width: 50%;
+            }
+        }
+        @media (min-width:769px) and (max-width:1024px) {
+            .abc{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            #two1{
+                width: 25%;
+            }
+            #two2{
+                width: 50%;
+            }
+            #two3{
+                width: 25%;
+            }
+            #two4{
+                width: 100%;
+            }
+        }
+        @media (min-width:1025px) and (max-width:1200px) {
+            .abc{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            #two1{
+                width: 25%;
+            }
+            #two2{
+                width: 25%;
+            }
+            #two3{
+                width: 25%;
+            }
+            #two4{
+                width: 25%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="abc">
+        <div class="one" id="two1" style="color: blueviolet;">1</div>
+        <div class="one" id="two2" style="color: cadetblue;">2</div>
+        <div class="one" id="two3" style="color:greenyellow;">3</div>
+        <div class="one" id="two4" style="color: crimson;">4</div>
+    </div>
+</body>
+</html>

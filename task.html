@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 10px;
+            width: 600px;
+            background-color: white;
+            margin-top: 20px;
+            margin-left: 10%;
+           
+        }
+        .one{
+            animation-name: one;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+            animation-timing-function: ease;
+        }
+        @keyframes one {
+            0%{
+                width: 0;
+                background-color: white;
+            }
+            100%{
+                width: 600px;
+                background-color: red; 
+            }
+        }
+        .two{
+            animation-name: one;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+            animation-timing-function:ease-in;
+        }
+        @keyframes two {
+            0%{
+                width: 0;
+                background-color: white;
+            }
+            100%{
+                width: 600px;
+                background-color: red; 
+            }
+        }
+        .three{
+            animation-name: one;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+            animation-timing-function:ease-out;
+        }
+        @keyframes three {
+            0%{
+                width: 0;
+                background-color: white;
+            }
+            100%{
+                width: 600px;
+                background-color: red; 
+            }
+        }
+        .four{
+            animation-name: one;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+            animation-timing-function:ease-in-out;
+        }
+        @keyframes four {
+            0%{
+                width: 0;
+                background-color: white;
+            }
+            100%{
+                width: 600px;
+                background-color: red; 
+            }
+        }  
+              .five{
+            animation-name: one;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+            animation-timing-function:ease-in;
+        }
+        @keyframes five {
+            0%{
+                width: 0;
+                background-color: white;
+            }
+            100%{
+                width: 600px;
+                background-color: red; 
+            }
+        }
+        .six{
+            animation-name: one;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+            animation-timing-function:steps(4);
+        }
+        @keyframes six {
+            0%{
+                width: 0;
+                background-color: white;
+            }
+            100%{
+                width: 600px;
+                background-color: red; 
+            }
+        }
+        
+        p{
+            margin-top: 20px;
+            margin-left: 10%;
+        }
+        
+    </style>
+    
+</head>
+<body style="background-color: black;">
+  <p style="color: white;">c/c++<div class="one"></div></p>
+  <p style="color: white;">java<div class="two"></div></p>
+  <p style="color: white;">python<div class="three"></div></p>
+  <p style="color: white;">html<div class="four"></div></p>
+  <p style="color: white;">css<div class="five"></div></p>
+  <p style="color: white;">javascript<div class="six"></div></p>
+</div>
+</body>
+</html>
